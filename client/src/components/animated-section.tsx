@@ -75,37 +75,3 @@ export function StaggerItem({ children, className = "" }: { children: React.Reac
   );
 }
 
-export function CountUp({ target, duration = 2 }: { target: number; duration?: number }) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-
-  return (
-    <motion.span
-      ref={ref}
-      initial={{ opacity: 0 }}
-      animate={isInView ? { opacity: 1 } : {}}
-    >
-      {isInView && (
-        <motion.span
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-        >
-          <MotionNumber target={target} duration={duration} />
-        </motion.span>
-      )}
-    </motion.span>
-  );
-}
-
-function MotionNumber({ target, duration }: { target: number; duration: number }) {
-  return (
-    <motion.span
-      initial={0}
-      animate={target}
-      transition={{ duration, ease: "easeOut" }}
-    >
-      {target}
-    </motion.span>
-  );
-}
