@@ -20,35 +20,24 @@ import {
 const allServices = [
   {
     icon: Code2,
-    title: "Frontend Development",
-    text: "We craft clean, responsive, and animated user interfaces that feel fast, intuitive, and premium. Every UI is built to reflect your brand and improve user engagement.",
+    title: "Web Development",
+    text: "We build powerful, end-to-end web solutions with high-impact animated frontends and scalable, secure backends. Every build is engineered for performance, flexibility, and real business growth — not just visuals.",
     features: [
-      "Responsive Design",
-      "Smooth Animations",
-      "Performance Optimized",
-      "Cross-Browser",
+      "Animated & Interactive UI",
+      "Scalable Backend Systems",
+      "Performance & Security Focused",
+      "API & Database Architecture",
     ],
   },
   {
     icon: Server,
-    title: "Full Stack Development",
-    text: "We handle authentication, databases, APIs, and application logic to build secure and scalable products ready for real users.",
+    title: "App Development",
+    text: "We create high-performance mobile apps with smooth animations, rock-solid logic, and scalable architecture. From pixel-perfect interfaces to powerful backend integrations, every app is built to feel fast, modern, and business-ready.",
     features: [
-      "Authentication Systems",
-      "Database Design",
-      "REST & GraphQL APIs",
-      "Security Best Practices",
-    ],
-  },
-  {
-    icon: LayoutDashboard,
-    title: "Custom Web Applications",
-    text: "From dashboards to platforms, we build applications tailored exactly to your business workflow.",
-    features: [
-      "Admin Dashboards",
-      "SaaS Platforms",
-      "Business Tools",
-      "Data Visualization",
+      "Fluid Animations & UX",
+      "Scalable App Architecture",
+      "API & Backend Integration",
+      "Optimized for Speed & Stability",
     ],
   },
   {
@@ -62,6 +51,18 @@ const allServices = [
       "Security Patches",
     ],
   },
+  {
+    icon: LayoutDashboard,
+    title: "Social Media Marketing",
+    text: "We craft scroll-stopping reels and data-driven campaigns designed to capture attention and convert it into growth. From shooting and editing to targeting the right audience, we turn content into consistent visibility and real engagement.",
+    features: [
+      "Reels & Short-Form Content",
+      "Audience Targeting & Reach",
+      "Content Strategy & Posting",
+      "Growth & Engagement Tracking",
+    ],
+  },
+
   {
     icon: Shrub,
     title: "Digital Marketing & Growth",

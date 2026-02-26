@@ -29,14 +29,14 @@ import {
 
 const services = [
   {
-    icon: Code2,
-    title: "Frontend Development",
-    text: "High-performance, responsive, and animated interfaces designed to convert users into customers.",
+    icon: Server,
+    title: "Full Stack Development",
+    text: "High-impact, animated, and immersive web experiences powered by scalable, secure backend systems. From motion-rich, 3D-driven interfaces to robust APIs, databases, and business logic — we build end-to-end solutions designed to perform, scale, and convert.",
   },
   {
     icon: Server,
-    title: "Full Stack Development",
-    text: "Secure, scalable backend systems with authentication, databases, APIs, and real-world business logic.",
+    title: "Social Media Growth & Content Strategy",
+    text: "End-to-end social media execution — from shooting high-energy reels to cinematic editing and data-driven distribution. We don’t just create content; we position it to reach the right audience, boost visibility, and drive real engagement across platforms.",
   },
   {
     icon: TrendingUp,
@@ -90,7 +90,7 @@ export default function Home() {
                 data-testid="badge-hero-label"
               >
                 <span className="w-1.5 h-1.5 bg-primary rounded-full animate-pulse" />
-                Web Development Studio
+                Digital Growth Studio
               </span>
             </motion.div>
 
@@ -105,9 +105,9 @@ export default function Home() {
               className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight leading-[1.1] text-foreground"
               data-testid="text-hero-headline"
             >
-              We design and build{" "}
-              <span className="text-primary">scalable web experiences</span> for
-              modern businesses.
+              We shape{" "}
+              <span className="block text-primary">digital experiences</span>
+              that turn attention into impact
             </motion.h1>
 
             <motion.p
@@ -117,9 +117,9 @@ export default function Home() {
               className="mt-8 text-lg lg:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
               data-testid="text-hero-subtext"
             >
-              We're a two-founder web development studio combining clean
-              frontend, strong backend, and growth-focused digital strategy to
-              turn ideas into real products.
+              We’re a two-founder studio combining clean design, solid
+              engineering, and growth-focused digital strategy to help
+              businesses scale.
             </motion.p>
 
             <motion.div

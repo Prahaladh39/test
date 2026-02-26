@@ -12,26 +12,26 @@ import {
 const founders = [
   {
     icon: Code2,
-    role: "Frontend & Digital Strategy",
+    role: "Full-Stack Engineering",
     description:
-      "Focused on UI, UX, animations, and marketing-ready experiences.",
+      "Focused on scalable frontend experiences and robust backend systems built for real-world use.",
     skills: [
       "Interface Design",
       "Animations & Interactions",
-      "SEO & Performance",
-      "Digital Marketing",
+      "Backend APIs & Databases",
+      "Performance & Security",
     ],
   },
   {
     icon: Server,
-    role: "Full Stack & Backend",
+    role: "Digital Marketing & Growth",
     description:
-      "Focused on architecture, databases, security, and application logic.",
+      " Focused on building visibility, engagement, and conversions across digital platforms.",
     skills: [
-      "System Architecture",
-      "Database Design",
-      "API Development",
-      "Security & Auth",
+      "Social Media Management",
+      "Short-Form Content & Reels",
+      "SEO & Organic Growth",
+      "Paid Ads & Campaigns",
     ],
   },
 ];
@@ -65,8 +65,8 @@ export default function About() {
               Who we are<span className="text-primary">.</span>
             </h1>
             <p className="mt-6 text-lg text-muted-foreground leading-relaxed max-w-xl">
-              We're a two-founder web development studio driven by
-              problem-solving, clean code, and scalable design.
+              We’re a two-founder digital studio that blends strategy,
+              technology, and content to help brands grow sustainably.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               {/* Prahaladh Instagram Link */}
@@ -164,8 +164,9 @@ export default function About() {
               <div className="relative">
                 <Quote className="w-10 h-10 text-primary/20 mb-6" />
                 <blockquote className="text-xl lg:text-2xl font-medium text-foreground leading-relaxed">
-                  We don't just build websites. We build systems that are ready
-                  for real users, real traffic, and real growth.
+                  From high-performing websites to powerful digital marketing
+                  and social content, we build growth-ready systems that turn
+                  attention into action.
                 </blockquote>
                 <div className="mt-8 w-16 h-[2px] bg-primary" />
               </div>
