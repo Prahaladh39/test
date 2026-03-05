@@ -9,6 +9,7 @@ import food from "./videos/food.mp4";
 import bike from "./videos/bike.mp4";
 import editing from "./videos/editing.mp4";
 import shoes from "./videos/shoes.mp4";
+import cf from "./c.png";
 import {
   ArrowUpRight,
   Play,
@@ -37,12 +38,11 @@ const webProjects = [
   },
   {
     id: 2,
-    title: "Tollywood Vault",
+    title: "Groove9 Cafe",
     description:
-      "A highly interactive, animated movie database and trivia platform celebrating regional cinema culture with a dynamic UI.",
-    image:
-      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=800&auto=format&fit=crop",
-    link: "#",
+      "Groove9 is a premium, nature-infused café where exceptional food meets calm vibes, offering a peaceful escape for your everyday main character moments.",
+    image: cf,
+    link: "https://groove-psi.vercel.app/",
   },
   {
     id: 3,
